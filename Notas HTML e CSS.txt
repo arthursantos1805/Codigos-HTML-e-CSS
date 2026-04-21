@@ -126,3 +126,6 @@ transition-duration: xsegundos;
 list-style-position = posição da bolinha ou oq seja da ul
 columns = numero de colunas de uma ul ou ol
 list-style-type = 'codepoint' (00A0 = espaço em branco)
+background-size = x por y
+background-repeat = no-repeat, repeat (padrao), repeat-x(repete só pra x), repeat-y(só pra y)
+background-position = ponto de ancoragem e ponto de término
