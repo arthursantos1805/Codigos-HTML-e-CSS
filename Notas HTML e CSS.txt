@@ -1,0 +1,128 @@
+IMPORTANTE = index.html significa índice, ou página principa
+HTML
+<!-- x --> para comentar
+<h1></h1> = cria um título
+<p><p> = cria um paragrafo
+<br> = quebra linha
+&lt x &gt = cada um é < e >
+link:favicon = para mudar o favicon
+img = tag para adcionar imagens (tem mais coisas dentro)
+<adress></adress> = é usado parecido com itálico, mas significa que aquela linha dá pra um endereço
+<strong> = negrito
+<EM> = italico
+<mark> = tipo um marca texto
+<big> (nao semantico) =  letrinha maior
+<small> = letrinha menor
+<del> = riscado, excluido 
+<ins> = basicamente sublinha, mas significa inserção
+<sup> = texto para cima (sobrescrito)
+<sub> = texto para baixo (subscrito)
+<code> = letras monoespaçadas específicas para códigos
+<pre> = basicamente lê o texto exatamente como está no vscode
+<q> = significa quote, que significa citação
+<blockquote> =  meio que indenta o texto para uma citação de autor e etc
+cite="link" = não muda nada visualmente, mas mostra pro gooogle, por exemplo, de onde vc tirou aquele texto
+<abbr title=""> = explica oq aquilo ali significa ao passar o mouse por cima
+<ol> = organized list, organiza tudo numa lista
+<li>(opcional o /li) = cada item da lista
+type="" = tipo da lista
+start="" = onde começa a lista
+<ul> = lista sem ordem, apenas com itens
+<dl> = definition list, monta uma lista baseada em termo <dt> e definição <dd>
+<a> = vem de âncora, usado para ancorar um link no texto
+href="" = hypertext reference, serve para dizer pra onde um link vai
+target="" = alvo da âncora, _blanck pra abrir uma nova página com ele, _self para abrir na mesma página
+rel="" = relativo a, para link externo use 'external', para próxima página 'next', para anterior 'prev'
+media types = iana.org
+type="" = pode ser usado pra usar um media type
+download="" = aponta o arquivo para download
+https://github.com/gustavoguanabara/html-css/tree/master/exercicios
+<picture> = espécie de <img> mas capaz de armazenar diferentes tipos de imagem
+<source media="" srcset="" type=""> = usado para dar um substituto para a imagem principal
+para media = valor max ou min de pixels da imagem
+para srcset = alternativa da imagem
+para type = tipo de imagem (png, jpg, jpeg...)
+IMPORTANTE!!! : no source, precisa ser estabelecida uma ordem no menor (em cima) para o maior (em baixo)
+<audio src="" controls(opcional) autoplay(opcional)> = usado para colocar audios no site (USAR MP3 WAV OU OGG)
+loop = deixa o audio em looping
+ATENÇÃO SEU BURRO!! : USE O SOURCE PARA DAR DIVERSAS OPÇÕES DE MÍDIA
+poster="" = pra colocar thumb no vídeo
+TIPOS DE CAIXA
+<span> = inline-level, agrupamento que ocupa apenas parte da width de uma tela e não pula parágrafo
+<div> = box-level, agrupamento que ocupa toda a width de uma tela e pula parágrafo
+<header> = agrupamento do cabeçalho, início do site
+<main> = agrupamento do grupo principal do site
+<footer> = agrupamento de informações por menores, como copyright, autor, etc...
+<nav> = seção exclusiva para links
+<section> = basicamente um conteúdo de h
+<article> = meio auto explicativo, é pra artigos, tipo notícias, paginas de blog
+<aside> = tipo créditos
+
+
+CSS
+background-image: linear-gradient(to direção, cor1, cor2, cor3...); = pra fazer um bom degradê
+direções: top, bottom, left, right
+(também da pra colocar a direção em grau usando Valordeg) ex: 45deg
+* { = configuração global
+}
+text-align: = alinhamento do texto
+usar justify pra ele se adaptar ao tamanho da página
+font-family = basicamente usa toda a família da(s) fonte(s) colocada(s)
+da pra colocar mais de uma fonte como alternativa ex: Arial, Helvetica, sans-serif
+px = pixels
+em = altura do M na fonte
+px e em são os principais mais usados pra medir fonte
+16px geralmente = 1em
+font-weight: = peso da fonte (lighter, normal, bold, bolder)
+font-style:: = (normal, italic, )
+text-decoration: = (underline, )
+shorthand font
+    ordem:
+    font-style -> font-weight -> font-size -> font-family
+    font: italic bolder 3m 'Work Sans', sans-serif;
+
+@font-face = basicamente vc faz um opção de fonte própria
+format() = opentype pra otf, truetype pra ttf, embedded-opentype, truetype-aat (Apple Advanced Typography)
+whatfontis.com = site pra achar fontes dentro de imagens
+text-align: para alinhar o texto(right, center, left, justify)
+text-indent: indentação no inicio do texto(em px ou outra medida)
+@charset "UTF-8" = para evitar ter problemas com acentos e outros caracteres dentro do arquivo.css
+em HTML é id, em CSS é #
+em HTML é class, em CSS é .
+Para dizer que um item pertence a outro, usa >
+pseudo-classe é :
+    tipos:
+    hover = mouse em cima
+    visited = link já acessado
+    active = clicado
+pseudo-elementos é ::
+    tipos:
+    after = depois
+id para item unico
+class é para itens multiplos
+border = borda, propriamente dito 
+    border-width                    (shorthand=border: width, style, color)
+    border-style: solid, dashed,
+    border-color 
+padding = "borda" do conteúdo (shorthand=padding: se for tudo igual, bota só 1 valor, )
+    padding-top
+    padding-right
+    padding-bottom
+    padding-left
+margin = margem entre a borda da tela e o elemento 
+outline = uma borda pra borda
+display = block: box-level, inline: inline-level
+box-shadow: (inset, outset) 1px 1px 1px 1px
+border-radius = arredondar bordas
+word_space = espaços entre as palavras
+QUANDO NN TIVER CONSEGUINDO CENTRALIZAR ITENS, TENTA FORÇAR DISPLAY BLOCK SEU BURRRROOOOOOOO
+:root = pseudo-classe, raíz do seu programa, basicamente configurações globais
+    para criar variáveis:
+    --variavel: conteudo;
+    para usar variáveis:
+    var(--variavel);
+
+transition-duration: xsegundos;
+list-style-position = posição da bolinha ou oq seja da ul
+columns = numero de colunas de uma ul ou ol
+list-style-type = 'codepoint' (00A0 = espaço em branco)
