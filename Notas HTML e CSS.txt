@@ -126,6 +126,11 @@ transition-duration: xsegundos;
 list-style-position = posição da bolinha ou oq seja da ul
 columns = numero de colunas de uma ul ou ol
 list-style-type = 'codepoint' (00A0 = espaço em branco)
-background-size = x por y
+background-size = x por y, cover(cobre todo o fundo da imagem, sacrificando pedaços), contain(mostra a imagem toda independente de tudo)
 background-repeat = no-repeat, repeat (padrao), repeat-x(repete só pra x), repeat-y(só pra y)
 background-position = ponto de ancoragem e ponto de término
+background-attachment = fixed(a imagem nn se move), scroll (a imagem se move junto do scroll)
+position = relative(se coloca na box pai), absolute(usa pra oq ta dentro da div)
+    left, top, right, bottom, usar porcentagens
+transform = transformação de itens
+    translate(altera a posição que o objeto ocupa na área)
