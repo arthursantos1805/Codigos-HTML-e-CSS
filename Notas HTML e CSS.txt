@@ -75,6 +75,7 @@ px e em são os principais mais usados pra medir fonte
 16px geralmente = 1em
 font-weight: = peso da fonte (lighter, normal, bold, bolder)
 font-style:: = (normal, italic, )
+font-variant: small-caps(deixa tudo em caps, mas a primeira letra maiorzinha)
 text-decoration: = (underline, )
 shorthand font
     ordem:
@@ -86,6 +87,7 @@ format() = opentype pra otf, truetype pra ttf, embedded-opentype, truetype-aat (
 whatfontis.com = site pra achar fontes dentro de imagens
 text-align: para alinhar o texto(right, center, left, justify)
 text-indent: indentação no inicio do texto(em px ou outra medida)
+text-transform = uppercase
 @charset "UTF-8" = para evitar ter problemas com acentos e outros caracteres dentro do arquivo.css
 em HTML é id, em CSS é #
 em HTML é class, em CSS é .
