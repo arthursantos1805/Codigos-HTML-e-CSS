@@ -64,6 +64,20 @@ TIPOS DE CAIXA
             TABLE HEADER = cabeçalho de tabela
             TABLE DATA = dados de tabela
 
+    ANATOMIA PARA TABELAS GRANDES
+    TABLE
+        CAPTION = legenda da tabela, aparece em cima de tudo
+        THEAD
+            TR, TD, TH
+        TBODY
+            TR, TD, TH
+        TFOOT
+            TR, TD, TH
+    scope = col = as informações do th ficam abaixo dele
+            row = as informações do th ficam logo ao lado
+    colspan = quantas colunas a data vai ocupar
+    rowspan = quantas linhas a data vai ocupar
+
 
 CSS
 background-image: linear-gradient(to direção, cor1, cor2, cor3...); = pra fazer um bom degradê
@@ -103,6 +117,7 @@ pseudo-classe é :
     hover = mouse em cima
     visited = link já acessado
     active = clicado
+    nth-child(Xn, odd(ímpar), even(par)) = aplica o efeito nos filhos em de X em X
 pseudo-elementos é ::
     tipos:
     after = depois
@@ -138,7 +153,9 @@ background-size = x por y, cover(cobre todo o fundo da imagem, sacrificando peda
 background-repeat = no-repeat, repeat (padrao), repeat-x(repete só pra x), repeat-y(só pra y)
 background-position = ponto de ancoragem e ponto de término
 background-attachment = fixed(a imagem nn se move), scroll (a imagem se move junto do scroll)
-position = relative(se coloca na box pai), absolute(usa pra oq ta dentro da div)
+position = relative(se coloca na box pai), 
+        absolute(usa pra oq ta dentro da div)
+        sticky(grudável, logo em seguida coloca um top, left etc com a posição)
     left, top, right, bottom, usar porcentagens
 transform = transformação de itens
     translate(altera a posição que o objeto ocupa na área)
