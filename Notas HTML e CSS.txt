@@ -73,8 +73,11 @@ TIPOS DE CAIXA
             TR, TD, TH
         TFOOT
             TR, TD, TH
+        COLGROUP
+            <col class= "cgrupo" span"quantidade de colunas">
     scope = col = as informações do th ficam abaixo dele
             row = as informações do th ficam logo ao lado
+            colgroup e rowgroup = basicamente um plural de rows ou cols
     colspan = quantas colunas a data vai ocupar
     rowspan = quantas linhas a data vai ocupar
 
@@ -161,3 +164,5 @@ transform = transformação de itens
     translate(altera a posição que o objeto ocupa na área)
 border-collapse = separate(bordas separadas padrao), collapse(bordar se encostam)
 vertical-align = top, middle, bottom
+overflow(x ou y) = é tudo que vaza pro eixo escolhido
+    auto: cria uma rolagem para a div unicamente
