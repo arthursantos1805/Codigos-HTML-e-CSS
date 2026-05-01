@@ -81,6 +81,15 @@ TIPOS DE CAIXA
     colspan = quantas colunas a data vai ocupar
     rowspan = quantas linhas a data vai ocupar
 
+iframe = forma de colocar um site dentro de outro, como uma página nova
+    TAMANHO PADRÃO: 300x150
+    src = link
+    frameborder = tamanho da borda
+    dentro do <> = colocar um substituto pro iframe, igual no source media
+    height
+    width
+    scrolling = auto, yes, no
+
 
 CSS
 background-image: linear-gradient(to direção, cor1, cor2, cor3...); = pra fazer um bom degradê
