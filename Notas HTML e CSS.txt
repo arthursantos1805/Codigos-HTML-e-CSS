@@ -89,6 +89,13 @@ iframe = forma de colocar um site dentro de outro, como uma página nova
     height
     width
     scrolling = auto, yes, no
+name = basicamente o id de envio de dados, também se usa pra colocar target pro iframe
+    srcdoc = um minihtml do iframe
+    sandbox="sandbox" = não captura nenhuma informação no iframe (segurança)
+            allow-same-origin
+            allow-forms
+            allow-scripts
+    referrerpolicy="no-referrer"
 
 
 CSS
