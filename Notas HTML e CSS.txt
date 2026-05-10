@@ -101,6 +101,18 @@ form = formulario
         legend = legenda do fieldset
     input = obtenção de dados
 
+    textarea = area de texto
+        cols = numero de colunas 
+        rows = número de linjas
+
+    datalist = lista de opções pra inputs digitaveis
+        list = parametro pro input, recebe o id da datalist
+        option
+
+    select = seleção vertical
+        optgroup = Grupo pras options
+            option = cada opção do select
+
         text = caixa de texto
             required = campo obrigatório
             minlenght = minimo de caracteres
@@ -110,6 +122,7 @@ form = formulario
             step = de quanto o valor pula
             size = tamanho da caixa em caracteres
             placeholder = texto dentro da caixa
+            selected = selecionado
         password = caixa de texto com censura
         submit = confirmador do action do form
         reset = limpar campos de input
