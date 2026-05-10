@@ -100,6 +100,7 @@ form = formulario
     fieldset = campo de informações pessoais
         legend = legenda do fieldset
     input = obtenção de dados
+    output = saída de um input
 
     textarea = area de texto
         cols = numero de colunas 
