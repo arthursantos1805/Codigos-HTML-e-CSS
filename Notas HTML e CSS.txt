@@ -102,11 +102,17 @@ input = obtenção de dados
         required = campo obrigatório
         minlenght = minimo de caracteres
         maxlengt = máximo de caracteres
+        min = valor minimo
+        max = valor maximo
+        step = de quanto o valor pula
         size = tamanho da caixa em caracteres
         placeholder = texto dentro da caixa
     password = caixa de texto com censura
     submit = confirmador do action do form
     reset = limpar campos de input
+    month = calendario
+    date = data
+    time = hora
 
 
 form = tag de formulario
