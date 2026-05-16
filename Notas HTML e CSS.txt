@@ -147,6 +147,10 @@ form = tag de formulario
 label = in-line conjuntivo (usar sempre label para garantir o junção de texto e input)
     for: = para id
 
+MEDIA QUERY
+    media = estilo do link  
+        print = impressão
+        screen = tela
 
 
 CSS
