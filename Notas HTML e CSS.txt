@@ -151,6 +151,8 @@ MEDIA QUERY
     media = estilo do link  
         print = impressão
         screen = tela
+        (orientation:portrait) = retrato
+        (orientation:ladscape) = paisagem
 
 
 CSS
