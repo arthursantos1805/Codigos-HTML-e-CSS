@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+
+    header h1 {
+        font-size: 50px;
+    }
+
+    header menu ul li{
+        display: inline-block;
+        padding: 15px;
+        max-width: 100px;
+        text-align: center;
+        width: 100px;
+    }
+
+    header ul {
+        text-align: left;
+    }
+
+    #banner img {
+        max-width: 700px;
+    }
+
+    #banner h2 {
+        font-size: 40px;
+    }
+
+    main {
+        text-align: center;
+    }
+
+    main h2 {
+        font-size: 50px;
+    }
+
+    main section {
+        display: inline-block;
+        text-align: center;
+    }
+}

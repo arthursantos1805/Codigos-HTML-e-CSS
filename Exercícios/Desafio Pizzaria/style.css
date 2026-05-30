@@ -100,6 +100,7 @@ main section {
     color: #da9f16;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.658);
     padding: 30px;
+    margin-bottom: 20px;
 }
 
 main section img {
