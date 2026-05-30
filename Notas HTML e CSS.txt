@@ -239,3 +239,4 @@ border-collapse = separate(bordas separadas padrao), collapse(bordar se encostam
 vertical-align = top, middle, bottom
 overflow(x ou y) = é tudo que vaza pro eixo escolhido
     auto: cria uma rolagem para a div unicamente
+cursor = muda o tipo do cursor
