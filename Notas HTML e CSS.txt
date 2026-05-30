@@ -153,7 +153,12 @@ MEDIA QUERY
         screen = tela
         (orientation:portrait) = retrato
         (orientation:ladscape) = paisagem
-
+Typical Device Breakpoints
+    Pequenas telas: até 600px
+    Celular: de 600px até 768px
+    Tablet: 768px até 992px
+    Desktop: 992px até 1200px
+    Grandes telas: acima de 1200px
 
 CSS
 background-image: linear-gradient(to direção, cor1, cor2, cor3...); = pra fazer um bom degradê
