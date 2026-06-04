@@ -6,6 +6,7 @@
 
     #login {
         width: 90vw;
+        height: 300px;
     }
 
     #login #imagem {
@@ -51,9 +52,4 @@
         background-image: linear-gradient(to top, #49a09d, #5f2c82 );
     }
 
-
-    input[type=password], input[type=email]{
-    width: 100%;
-    max-width: 300px;
-    }
 }
