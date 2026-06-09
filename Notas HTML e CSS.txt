@@ -245,3 +245,11 @@ vertical-align = top, middle, bottom
 overflow(x ou y) = é tudo que vaza pro eixo escolhido
     auto: cria uma rolagem para a div unicamente
 cursor = muda o tipo do cursor
+
+FLEXBOX
+    flex-direction (row, row-reverse, column, column-reverse)
+        row: main-axis: esquerda-direita cross-axis: cima-baixo
+        row-reverse: main-axis: direta-esquerda, cross-axis: cima-baixo
+        column: main-axis: cima-baixo, cross-axis: esquerda-direita
+        column-reverse: main-axis: baixo-cima, cross-axis: esquerda-direita
+    flex-wrap: (nowrap, wrap, wrap-reverse)
