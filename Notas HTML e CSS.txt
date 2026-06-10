@@ -253,3 +253,10 @@ FLEXBOX
         column: main-axis: cima-baixo, cross-axis: esquerda-direita
         column-reverse: main-axis: baixo-cima, cross-axis: esquerda-direita
     flex-wrap: (nowrap, wrap, wrap-reverse)
+    flex-flow:shorthand pro direction e wrap
+    justify-content: depende do main-start/ main-end (flex-start, flex-end, center
+                                space-between[o primeiro item fica no start e o ultimo
+                                no end, o resto fica proporcional],
+                                space-evenly[tudo espaçado de forma proporcional],
+                                space-around[centraliza os itens com divisoes próprias])
+                                
