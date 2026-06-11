@@ -265,3 +265,5 @@ FLEXBOX
     order: qualquer valor numérico
     align-self: [cross-axis] auto(segue o padrao do pai), flex-start, flex-end, center, stretch
     flex-basis: auto ou valor px
+    flex-shrink: 1(encolhe) 0(nao) qualquer outro valor(coisa tantas vezes mais)
+    flex-grow: 1(cresce) 0(nao)
