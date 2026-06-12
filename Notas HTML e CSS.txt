@@ -267,3 +267,7 @@ FLEXBOX
     flex-basis: auto ou valor px
     flex-shrink: 1(encolhe) 0(nao) qualquer outro valor(coisa tantas vezes mais)
     flex-grow: 1(cresce) 0(nao)
+    flex: shorthand, é do flex-item (flex-grow flex-shrink flex-basis)
+        initial(0 1 auto)
+        none(0 0 auto)
+        auto(1 1 auto)
