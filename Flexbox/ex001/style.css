@@ -48,6 +48,10 @@ nav a:hover {
     transition: background-color .5s;
 }
 
+nav a:visited {
+    color: white;
+}
+
 main section {
     background-color: white;
     color: black;
