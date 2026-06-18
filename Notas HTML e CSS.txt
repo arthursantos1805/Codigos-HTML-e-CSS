@@ -271,3 +271,31 @@ FLEXBOX
         initial(0 1 auto)
         none(0 0 auto)
         auto(1 1 auto)
+
+GRID LAYOUT
+    display: grid -- cria um grid container
+    gap: oq fica entre os os itens do grid
+    items: todos os quadradinhos do grid
+    track: linha de itens
+        column-track: track em colunas
+        row-track: track em linha
+    lines: as linhas em volta dos itens
+
+    gap: valor em px, altera o tamanho do gap
+    grid-template-columns: tamanho de cada colunas (usar unidade fracional [1fr, 2fr, 1fr])
+    grid-template-rows: tamanho de cada linha
+        --> grid-template: rows / columns
+    align-items
+    justify-items
+        --> place-items
+    align-content
+    justify-content
+        --> place-content
+    grid-auto-row: tamanho pra todo item novo referente a linhas
+    grid-auto-column: tamanho pra todo item novo referente a colunas
+    grid-auto-flow: row pra quebrar pra linha, column pra quebrar pra coluna
+    grid-row-start
+    grid-row-end    span valor (mais tantas lines)
+    grid-column-start
+    grid-column-end
+    grid-area: grid-row / grid-column
