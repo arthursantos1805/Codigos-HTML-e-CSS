@@ -259,7 +259,7 @@ FLEXBOX
                                 no end, o resto fica proporcional],
                                 space-evenly[tudo espaçado de forma proporcional],
                                 space-around[centraliza os itens com divisoes próprias])
-    align-itens: (stretch[esticar], flex-start, flex-end, center)
+    align-items: (stretch[esticar], flex-start, flex-end, center)
     align-content: stretch, flex-start, flex-end, center,
     space-between, space-evenly, space-around
     order: qualquer valor numérico
