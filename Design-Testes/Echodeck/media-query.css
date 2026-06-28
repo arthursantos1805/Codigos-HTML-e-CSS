@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+
+    main {
+        width: 90vw;
+    }
+
+    main #premiums {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+        
+    }
+
+    main #premiums a.outlink {
+        grid-column-start: 2;
+    }
+
+    main #mais-vendidos {
+        grid-template-columns: 1fr auto 1fr;
+    }
+
+    #mais-vendidos .vendido2 {
+        grid-column: 3 / 4;
+    }
+
+    #mais-vendidos a.outlink {
+        grid-column: 2;
+    }
+}
+
+@media screen and (min-width: 1018px) {
+    #container {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    main #mais-vendidos {
+
+    }
+
+    main #perfumes {
+        height: 500px;
+        max-height: 463px;
+    }
+
+    main #perfumes .unidade {
+        height: 100%;
+    }
+}

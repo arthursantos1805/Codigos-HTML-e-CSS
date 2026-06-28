@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EchoDeck - Loja</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-query.css">
     <script src="https://kit.fontawesome.com/ff09a9fe3c.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -54,37 +55,41 @@
             <a href="#" class="outlink">Veja mais</a>
         </section>
 
-        <h2>Fragrâncias Naturais</h2>
-        <p>Mergulhe no aroma de campos floridos e muito mais</p>
-        <section id="perfumes" class="produto">
-            <div class="perfume unidade">
-                <img src="images/perfume.png" alt="Perfume">
-                <h3>Essência de Eucalipto</h3>
-                <a class="acesso" href="#"><i class="fa-solid fa-magnifying-glass"></i>Conheça-a</a>
-                <a href="#" class="outlink">Conheça mais fragrâncias</a>
-            </div> 
-        </section>
-
-        <h2>Mais Vendidos<i style="color: rgb(255, 255, 27); font-size: 0.9em;" class="fa-solid fa-star"></i></h2>
-        <p>Os favoritos dos nossos consumidores</p>
-        <section id="mais-vendidos" class="produto">
-            <div class="vendido unidade">
-                <img src="images/cremebabosa.png" alt="Creme Babosa">
-                <h3>Creme de Babosa</h3>
-                <h4>R$ 89.90</h4>
-                <a class="acesso" href="#"><i class="fa-solid fa-money-bill-transfer"></i>Comprar Agora</a>
-                <p>Vendidos: 7845</p>
+        <div id="container">
+            <div class="item1">
+                <h2>Fragrâncias Naturais</h2>
+                <p>Mergulhe no aroma de campos floridos e muito mais</p>
+                <section id="perfumes" class="produto">
+                    <div class="perfume unidade">
+                        <img src="images/perfume.png" alt="Perfume">
+                        <h3>Essência de Eucalipto</h3>
+                        <a class="acesso" href="#"><i class="fa-solid fa-magnifying-glass"></i>Conheça-a</a>
+                        <a href="#" class="outlink">Conheça mais fragrâncias</a>
+                    </div>
+                </section>
             </div>
-
-            <div class="vendido unidade">
-                <img src="images/cremebabosa.png" alt="Creme Babosa">
-                <h3>Creme de Babosa</h3>
-                <h4>R$ 89.90</h4>
-                <a class="acesso" href="#"><i class="fa-solid fa-money-bill-transfer"></i>Comprar Agora</a>
-                <p>Vendidos: 8996</p>
+            <div class="item2">
+                <h2>Mais Vendidos<i style="color: rgb(255, 255, 27); font-size: 0.9em;" class="fa-solid fa-star"></i></h2>
+                <p>Os favoritos dos nossos consumidores:</p>
+                <section id="mais-vendidos" class="produto">
+                    <div class="vendido unidade">
+                        <img src="images/cremebabosa.png" alt="Creme Babosa">
+                        <h3>Creme de Babosa</h3>
+                        <h4>R$ 89.90</h4>
+                        <a class="acesso" href="#"><i class="fa-solid fa-money-bill-transfer"></i>Comprar Agora</a>
+                        <p>Vendidos: 7845</p>
+                    </div>
+                    <div class="vendido vendido2 unidade">
+                        <img src="images/cremebabosa.png" alt="Creme Babosa">
+                        <h3>Creme de Babosa</h3>
+                        <h4>R$ 89.90</h4>
+                        <a class="acesso" href="#"><i class="fa-solid fa-money-bill-transfer"></i>Comprar Agora</a>
+                        <p>Vendidos: 8996</p>
+                    </div>
+                    <a class="outlink" href="#">Ver todos</a>
+                </section>
             </div>
-            <a class="outlink" href="#">Ver todos</a>
-        </section>
+        </div>
     </main>
     <div class="div"></div>     
     <footer>

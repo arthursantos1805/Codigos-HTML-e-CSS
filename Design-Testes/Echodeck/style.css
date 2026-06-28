@@ -178,13 +178,25 @@ main #premiums {
     cursor: pointer;
 }
 
-.produto {
+#container {
+    width: 100%;
+    display: grid;
+}
+
+#container .item1, #container .item2 {
+    width: 100%;
+    justify-items: center;
+}
+
+
+.produto{
     width: 100%;
     max-width: 80vw;
     border-radius: 8px;
     margin-bottom: 20px;
     padding: 20px;
 }
+
 
 #perfumes {
     background-color: #3eb85438;
@@ -266,9 +278,6 @@ main #premiums {
     filter: brightness(103%);
 }
 
-
-
-
 footer {
     background-color: white;
     color: rgb(56, 56, 56);
@@ -315,7 +324,7 @@ footer h3 {
 }
 
 #social a {
-    font-size: 1.8em;
+    font-size: 2em;
     padding: 10px;
     color: var(--verde);
 }
@@ -329,9 +338,3 @@ footer h4 {
     align-self: flex-start;
 }
 
-@media screen and (min-width: 768px) {
-
-    main {
-        width: 90vw;
-    }
-}
