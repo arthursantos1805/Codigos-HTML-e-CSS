@@ -1,0 +1,214 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor1:#FC9046;
+    --cor2:#FC7047;
+    --cor3:#FCAF47;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(29, 29, 29);
+}
+
+header {
+    background-color: var(--cor2);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header div {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 100%;
+}
+
+header #menu {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -10px;
+    width: 100%;
+}
+
+header #menu a {
+    font-size: clamp(1.5vw, 7vw, 24px);
+    padding: 10px;
+    color: var(--cor3);
+    padding-right: 30px;
+    padding-left: 30px;
+    transition: transform 0.5s, background-color 0.3s;
+    border-radius: 8px;
+}
+
+header #menu a:hover {
+    background-color: #df643f;
+    color: #ffc272;
+    transform: scale(1.1);
+}
+
+header img {
+    width: 25vw;
+    max-width: 140px;
+}
+
+main {
+    background-color: rgb(44, 44, 44);
+    display: block;
+    max-width: 1250px;
+    margin: auto;
+    padding: 20px;
+}
+
+main h1 {
+    color: var(--cor3);
+    font-weight: bolder;
+    text-align: center;
+}
+
+main #apresentacao {
+    text-align: center;
+    color: var(--cor3);
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.493);
+    margin-bottom: 10px;
+}
+
+main section #pedido {
+    background-color: var(--cor1);
+    padding: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.329);
+    margin-bottom: 20px;
+}
+
+main #pedido h2 {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(212, 44, 22);
+}
+
+#pedido a {
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    background-color: #e4813f;
+    text-decoration: none;
+    border-radius: 6px;
+    color: #FCAF47;
+    text-shadow: 0.5px 0.5px 10px rgba(0, 0, 0, 0.63);
+    transition: transform 0.3s;
+    font-weight: bold;
+}
+
+#pedido a:hover {
+    transform: scale(1.03);
+}
+
+main section form {
+    background-color: var(--cor1);
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    color: #FCAF47;
+}
+
+main section form h1 {
+    text-align: center;
+    font-size: 1.7em;
+    color: rgb(212, 44, 22);
+}
+
+main section .campo {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+main section .campo label {
+    padding-right: 5px;
+    color: rgb(212, 44, 22)
+}
+
+main section .campo input {
+    height: 30px;
+}
+
+form input[type="submit"] {
+    padding: 15px;
+    margin-top: 10px;
+    width: 100%;
+    border-radius:10px;
+    margin-bottom: 10px;
+    color: var(--cor3);
+    background-color: #e4813f;
+    border: none;
+    text-shadow: 0.5px 0.5px 10px rgba(0, 0, 0, 0.63);
+    transition: transform 0.3s;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+form input[type="submit"]:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+form input.input-campo {
+    border-radius: 8px;
+    padding: 5px;
+    background-color: rgb(44, 44, 44);
+}
+
+form p {
+    text-align: center;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.281);
+}
+
+form p a {
+    color: rgb(212, 44, 22);
+}
+
+footer {
+    background-color: var(--cor2);
+    padding: 20px;
+    color: var(--cor3);
+    text-align: center;
+}
+
+footer h2 {
+    margin-bottom: 10px;
+}
+
+footer #social {
+    margin-bottom: 15px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-bottom: 2px solid var(--cor3);
+}
+
+footer #social a {
+    font-size: 2em;
+    padding: 10px;
+    color: var(--cor3);
+}
+
+footer h3 {
+    border-top: 2px solid var(--cor3);
+    padding-top: 10px;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 1.2em
+}
