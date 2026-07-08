@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    header {
+        position: static;
+        max-height: 190px;
+    }
+
+    header div {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+    }
+    
+    header div img {
+        max-width: 160px;
+        width: 20vw;
+    }
+
+    header div #menu {
+        margin-top: 0px;
+        max-width: 500px;
+    }
+
+    header #menu a {
+        width: 50vw;
+        text-align: center;
+        margin: 5px;
+        padding: 10px;
+    }
+
+    main section form .campo input{
+        height: 5vw;
+        max-height: 50px;
+        width: 40vw;
+        max-width: 450px;
+    }
+
+    .campo label {
+        font-size: clamp(1.5em, 3vw, 25px);
+    }
+
+    footer p {
+        font-size: clamp(1em, 3vw, 17.1px)
+    }
+}
